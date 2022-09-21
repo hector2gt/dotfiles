@@ -55,6 +55,7 @@ export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
 
 # Store your own aliases in the ~/.aliases file and load the here.
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
+alias jn='jupyter notebook'
 
 # Encoding stuff for the terminal
 export LANG=en_US.UTF-8
